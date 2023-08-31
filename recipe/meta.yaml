@@ -1,5 +1,5 @@
 {% set name = "outlier-utils" %}
-{% set version = "0.0.4" %}
+{% set version = "0.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name|replace("-", "_") }}/{{ name|replace("-", "_") }}-{{ version }}.tar.gz
-  sha256: b0581c2f98701fb2540f19dd96f6347232cf29a7ae94a110d93eaf6415c8599d
+  sha256: 16e46fa6f7b01fe5518ea73fc15d3de0e30091750c428760bbe7dde2c9590579
 
 build:
   noarch: python
